@@ -1,0 +1,17 @@
+.FAQ-header {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  color: $color__red-dark;
+  font-size: 14px;
+}
+
+.Internships-header {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  color: $color__bluegray;
+  font-size: 14px;
+}

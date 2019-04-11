@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "smooth-scroll": "^15.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "node-sass": "^4.11.0",
+    "react-app-rewired": "^2.1.1",
+    "stylelint": "^9.6.0",
+    "stylelint-config-sass-guidelines": "^5.3.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.2",
+    "stylelint-webpack-plugin": "^0.10.5"
+  }
+}
